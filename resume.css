@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:white;
+}
+
+
+#login-container{
+  position: relative;
+  padding: 10px;
+  width: 500px;
+  height: 605px;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color:black  ;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+  color: #ffc145;
+  font-size: 32px;
+  font-weight: 700;
+  font-family:  Sriracha, arial, sans-serif;
+  
+}
+.description{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 19px;
+  margin: 12px;
+}
+h3{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+.list-element{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+button{
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: white;
+  background-color: #ffc145;
+  border-color: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+footer{
+  position: absolute;
+  bottom: 10%;
+}
+.button-container {
+  margin: 10px;
+  display: flex;
+  gap: 10px; 
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #ff6666;
+  color: blue;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.button.linkedin,
+.button.mail,
+.button.call {
+  margin: 26px;
+    background-color: white; 
+}
+
+.button:hover {
+    background-color: #ffc145; 
+    border-color: #ff6666; 
+    color: blue; 
+  }
+
+.button i {
+    margin-right: 8px; 
+    font-size: 18px; 
+  }
+  /* .linkedin .icon {
+    content: url('path-to-linkedin-icon.svg'); 
+  }
+  
+  .mail .icon {
+    content: url('path-to-mail-icon.svg'); 
+  }
+
+.call .icon {
+  content: url('path-to-call-icon.svg'); 
+} */
+.button-link{
+  text-decoration: none;
+}
+button:hover {
+  background-color:cadetblue; 
+  border-color:turquoise;
+}
